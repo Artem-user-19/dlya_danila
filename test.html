@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .modal{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            border: 4px solid white;
+        }
+        .but{
+            margin-left: 10px;
+            padding: 10px 10px;
+            background-color: blue;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 5px;
+        }
+        .huy{
+            padding: 30px 30px;
+            font-size: 40px;
+            font-weight: 900;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            
+        }
+        .huynya{
+            background-color: #fff;
+            width: 500px;
+            height: 500px;
+        }
+        .musorka{
+            margin-top: -300px;
+            margin-left: 250px;
+            color: white;
+            background-color: black;
+            padding: 10px 10px;
+            display: inline-flex;
+            margin-top: -600px;
+        }
+
+        @media(max-width:500px){
+            .h1{
+                font-size: 30px;
+            }
+            .huy{
+                font-size: 20px;
+            }
+        }
+       
+    </style>
+    <h1 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 50px;" class="h1">Наша каша у голові</h1>
+    <button class="huy" onclick="document.querySelector(`dialog`).showModal()">Даньок (клікни)</button>
+    <dialog class="modal">
+        <p>Коли гулять будеш?</p>
+        <button class="but" onclick="document.querySelector(`dialog`).close()">ВИЙТИ НАХУЙ</button>
+    </dialog>
+    <div class="huynya">
+    <img src="https://st3.depositphotos.com/3554337/19411/i/600/depositphotos_194116198-stock-photo-open-silver-steel-trash-can.jpg" width="300px" alt="">
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 25px; font-weight: 700;" class="musorka">Айн мусорка</p>
+    </div>
+    <div class="cont">
+    <audio
+        controls
+        src="./huynya/burp-37726.mp3">
+            <a href="./huynya/burp-37726.mp3">
+            </a>
+    </audio>
+
+    <audio class="m"
+        controls
+        src="./huynya/tv-shows-and-movie-burps-4-95489.mp3">
+            <a href="./huynya/tv-shows-and-movie-burps-4-95489.mp3">
+            </a>
+    </audio>
+    </div>
+    <p style="font-size: 35px; font-weight: bolder;">...i приколи</p>
+</body>
+</html>
